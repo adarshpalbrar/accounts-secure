@@ -11,7 +11,7 @@ public class AccountsResource {
 
     @GetMapping("/accounts")
     public String getAllAccounts() {
-        return "Returning all accounts";
+        return "Returning all accounts for the User - adbrar";
     }
 
     @GetMapping("/accounts/{userId}")
